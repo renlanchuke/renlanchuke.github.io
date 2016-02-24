@@ -1,0 +1,22 @@
+{
+  "name": "renlanchuke pages",
+  "homepage": "https://github.com/renlanchuke/renlanchuke.github.io",
+  "authors": [
+    "renlanchuke"
+  ],
+  "description": "renlanchuke's blog",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "font-awesome": "~4.5.0"
+  }
+}
