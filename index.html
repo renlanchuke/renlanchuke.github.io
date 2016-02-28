@@ -27,19 +27,26 @@
 
 
 <body>
-    <div id="FirstPage" class="page" style="align-content:center;">
+    <div id="FirstPage" class="page" data-0-top="opacity:1;" data-top-bottom="opacity:0.5;">
         <header class="content">
             <div style="padding:100px "></div>
             <h1>
                 <span class="heading1">renlanchuke</span><br />github pages
             </h1>
         </header>
-        <a href="#SecondPage">
-            <img class="blue-down" width="52" height="52" src="images/blue-down-arrow.svg"/>
+        
+
+        <a href="#SecondPage" id="ShowSecondPage">
+            <img src="images/blue-down-arrow.svg" class="blue-down" width="52" height="52" ;
+                 data--138-bottom-bottom="transform:translateY(0px);" data--60-top-top="transform:translateY(-55px); " />
         </a>
     </div>
 
-    <div id="SecondPage" class="page">
+  
+        
+    
+    <div id="SecondPage" class="page"> 
+        <div class="verticle-bar-blue"></div>
         <header class="content">
             <div style="padding:100px "></div>
             <h1 class="heading1">
@@ -49,7 +56,32 @@
         </header>
 
     </div>
+    
 
+   
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="javascripts/skrollr.js"></script>
+    <script type="text/javascript">
+    var s = skrollr.init();
+    </script>
+
+    <script>
+        $('#ShowSecondPage').click(function () {
+            setTimeout(function () { console.log("OK")}, 100);
+            $('html, body').animate({
+                scrollTop: $($.attr(this, 'href')).offset().top
+            }, 600,'swing');
+            return false;
+
+           
+           
+           
+        });
+    </script>
 </body>
 
 </html>
