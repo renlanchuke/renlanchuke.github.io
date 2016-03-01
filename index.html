@@ -1,13 +1,11 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head
          content must come *after* these tags -->
-
     <title>renlanchuke's gitgub pages</title>
     <!-- Bootstrap -->
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -15,16 +13,13 @@
     <link href="stylesheets/stylesheet.css" rel="stylesheet" />
     <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="stylesheets/bootstrap-social.css" rel="stylesheet">
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
 </head>
-
 
 <body>
     <div id="FirstPage" class="page" data-0-top="opacity:1;" data-top-bottom="opacity:0.5;">
@@ -34,31 +29,34 @@
                 <span class="heading1">renlanchuke</span><br />github pages
             </h1>
         </header>
-        
 
         <a href="#SecondPage" id="ShowSecondPage">
             <img src="images/blue-down-arrow.svg" class="blue-down" width="52" height="52" ;
                  data--138-bottom-bottom="transform:translateY(0px);" data--60-top-top="transform:translateY(-55px); " />
         </a>
-    </div>
-
-  
-        
-    
-    <div id="SecondPage" class="page"> 
         <div class="verticle-bar-blue"></div>
-        <header class="content">
-            <div style="padding:100px "></div>
-            <h1 class="heading1">
-                renlanchuke
-            </h1>
-            <h1>This is a personal blog</h1>
-        </header>
 
     </div>
-    
 
-   
+
+
+    <div id="SecondPage" class="page">
+        
+        <div class="half-page " style="background-color:#ffffff;">
+            <img src="images/laptop.svg" class="mid-image" />
+        </div>
+
+        <div id="InterHeading">
+            <h1 class="heading2">
+                Web Development
+            </h1>
+            <h1>Areas of Interest</h1>
+        </div>
+
+
+    </div>
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
@@ -66,22 +64,20 @@
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="javascripts/skrollr.js"></script>
     <script type="text/javascript">
-    var s = skrollr.init();
+        var s = skrollr.init();
     </script>
-
     <script>
         $('#ShowSecondPage').click(function () {
-            setTimeout(function () { console.log("OK")}, 100);
+            setTimeout(function () { console.log("OK") }, 100);
             $('html, body').animate({
                 scrollTop: $($.attr(this, 'href')).offset().top
-            }, 600,'swing');
+            }, 600, 'swing');
             return false;
 
-           
-           
-           
+
+
+
         });
     </script>
 </body>
-
 </html>
