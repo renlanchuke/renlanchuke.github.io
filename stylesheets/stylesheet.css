@@ -38,6 +38,13 @@ h1{
     font-size:65px;
     line-height:65px;
 }
+
+.heading3{
+    font-size:40px;
+    line-height:60px;
+    font-family:'Berlin Sans FB';
+    color:#2174ff;
+}
 .page{
     position:relative;
      width: 100%;
@@ -87,9 +94,10 @@ h1{
     width:50%;
     height:100vh;
     top:0px;
+    float:left;
 }
 
-.mid-image{
+.center-image{
     width:90%;
     height:90%;
     min-width:300px;
@@ -99,4 +107,22 @@ h1{
     top:0;left:0;
     bottom:0;
     right:0;
+}
+
+.center-text {
+    position:absolute;
+    top:25%;
+    left:15%;
+    width:70%;
+    margin:auto;
+    padding-bottom:24px;
+    padding-top:24px;
+   
+    
+}
+
+p{
+    font-size:20px;
+    font-family:    'Berlin Sans FB';
+
 }
