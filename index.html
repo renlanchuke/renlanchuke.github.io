@@ -57,34 +57,36 @@
                 </p>
             </div>
         </div>
-
-        <div id="InterHeading">
-           
-        </div>
-
-
+    
     </div>
 
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <div id="ThirdPage" class="page" style="background-color:#00ffff">
+           
+        <div id="particles-js"></div>
+    </div>
+    <div id="FourthPage" class="page" style="background-color:#808080">
+        <h1>Yes</h1>
+    </div><!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="javascripts/skrollr.js"></script>
+    <script type="text/javascript" src="javascripts/particles.js"></script>
+    <script type="text/javascript" src="javascripts/main.js"></script>
+    
+
     <script type="text/javascript">
         var s = skrollr.init();
     </script>
     <script>
         $('#ShowSecondPage').click(function () {
-            setTimeout(function () { console.log("OK") }, 100);
+            
             $('html, body').animate({
                 scrollTop: $($.attr(this, 'href')).offset().top
             }, 600, 'swing');
             return false;
-
-
-
 
         });
     </script>
