@@ -62,10 +62,10 @@ particlesJS('particles-js',
           //粒子之间相连的边
           "line_linked": {
               "enable": true,
-              "distance": 200,
+              "distance": 180,
               "color": "#ffffff",
-              "opacity": 0.4,
-              "width": 2
+              "opacity": 0.3,
+              "width": 1
           },
           //
           "move": {

@@ -132,9 +132,9 @@ canvas{
 }
 
 #particles-js{
-    padding-top:10%;
-    
-    margin:auto;
+  padding-top:10%;
+
+  margin:auto;
   width: 80%;
   height: 80%;
   background-color: transparent;
@@ -142,4 +142,28 @@ canvas{
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+  z-index:0;
 }
+
+#datascience{
+    /*margin:0 auto;
+    top:30%;
+    left:35%;
+    position:absolute*/;
+  
+   
+
+    color:#08CEF2;
+    font-size:75px;
+    position:absolute;
+    width:900px;
+    left:50%;
+    margin-left:-450px;
+    
+    top:40%;
+    opacity:0.5;
+    text-align:center;
+    
+
+}
+
