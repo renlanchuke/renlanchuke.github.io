@@ -85,7 +85,7 @@ h1{
     height:100px;
     margin-left:-1px;
     background-color:#2174ff;
-    z-index:9999;
+    z-index:0;
 }
 
 
