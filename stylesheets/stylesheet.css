@@ -133,7 +133,6 @@ canvas{
 
 #particles-js{
   padding-top:10%;
-
   margin:auto;
   width: 80%;
   height: 80%;
@@ -150,8 +149,6 @@ canvas{
     top:30%;
     left:35%;
     position:absolute*/;
-  
-   
 
     color:#08CEF2;
     font-size:75px;
@@ -167,3 +164,13 @@ canvas{
 
 }
 
+#datasciecePara{
+    width:300px;
+    position:absolute;
+    left:50%;
+    margin-left:-150px;
+    color:#eceaee;
+    top:50%;
+    opacity:0.6;
+    text-align:center;
+}
